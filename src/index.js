@@ -4,7 +4,7 @@ import { runHomepage, closeHomepage } from "./sources/homepage.js";
 import { runFoodPage } from "./sources/foodpage.js";
 import { runContactpage } from "./sources/contactpage.js";
 
-runContactpage();
+runHomepage();
 
 document.querySelector("div.buttons button:nth-child(1)").addEventListener("click",()=>{
     closePages();
